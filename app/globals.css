@@ -1,0 +1,23 @@
+:root {
+  --bg: #13151b;
+  --panel: #1b1e27;
+  --panel-raised: #21242f;
+  --border: #2c303c;
+  --border-soft: #23262f;
+  --text: #ece9e2;
+  --text-dim: #8b8e9a;
+  --text-faint: #5b5e6a;
+  --amber: #e8a33d;
+  --teal: #4fd1c5;
+  --red: #e2695b;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  background: var(--bg); color: var(--text);
+  font-family: var(--font-body); font-size: 14px; line-height: 1.5;
+}
+input, select, button { font-family: var(--font-body); }
